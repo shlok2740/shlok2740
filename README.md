@@ -11,7 +11,7 @@
 
 - 💬 Ask me about **React, Next.js and Sanity.io**
 
-- 📫 How to reach me **shlokkumar2303@gmail.com**
+- 📫 How to reach me **shlokkumar2303@gmail.com** or **https://shlok2740.vercel.app**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
