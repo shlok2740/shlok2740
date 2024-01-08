@@ -41,9 +41,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { text1: "Aug 2020", text2: "Started my journey" },
   { text1: "Dec 2020", text2: "Started my first project" },
   { text1: "May 2021", text2: "Learnt about Blockchain" },
   { text1: "Sep 2021", text2: "Shared my projects with the world" },
   { text1: "Mar 2022", text2: "Become an intermediate in blockchain" },
+  { text1: "Jan 2023", text2: "Become a smart contract auditor" },
 ];
