@@ -1,34 +1,134 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# ============================================================
+# COMPUTE — Portfolio site (Shlok Kumar)
+# Next.js 16.2.0 · Turbopack · TailwindCSS v4 · shadcn/ui · R3F
+# ============================================================
 
-# dependencies
-/node_modules
-/.pnp
+# ------------------------------------------------------------
+# Local opencode CLI state
+# (dual-graph MCP server, agent memory, session caches)
+# ------------------------------------------------------------
+.dual-graph/
+.opencode/
+opencode.json
+
+# ------------------------------------------------------------
+# v0 sandbox internals
+# (this project was scaffolded from a v0 template)
+# ------------------------------------------------------------
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+
+# ------------------------------------------------------------
+# Next.js
+# ------------------------------------------------------------
+.next/
+out/
+next-env.d.ts
+next.user-config.*
+.vercel/
+next-i18next.config.js
+.turbo/
+
+# ------------------------------------------------------------
+# Build outputs
+# ------------------------------------------------------------
+build/
+dist/
+*.tsbuildinfo
+
+# ------------------------------------------------------------
+# Dependencies
+# ------------------------------------------------------------
+node_modules/
+.pnp
 .pnp.js
+.yarn/install-state.gz
 
-# testing
-/coverage
+# ------------------------------------------------------------
+# Lockfiles — pick ONE
+# This repo currently has BOTH package-lock.json and
+# pnpm-lock.yaml. Decide on a single package manager and
+# remove the other lockfile + this entire section.
+# ------------------------------------------------------------
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
 
-# next.js
-/.next/
-/out/
+# ------------------------------------------------------------
+# Environment & secrets
+# ------------------------------------------------------------
+.env
+.env*.local
+.env.development
+.env.production
+.env.test
+!.env.example
 
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
+# ------------------------------------------------------------
+# Logs
+# ------------------------------------------------------------
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+*.log
+logs/
 
-# local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# ------------------------------------------------------------
+# Testing & coverage
+# ------------------------------------------------------------
+coverage/
+.nyc_output/
+*.lcov
+playwright-report/
+test-results/
+/blob-report/
 
-# vercel
-.vercel
+# ------------------------------------------------------------
+# TypeScript
+# ------------------------------------------------------------
+*.tsbuildinfo
+*.js.map
+*.d.ts.map
+
+# ------------------------------------------------------------
+# IDEs & editors
+# ------------------------------------------------------------
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------
+# OS files
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ------------------------------------------------------------
+# Misc caches & temp
+# ------------------------------------------------------------
+.cache/
+.parcel-cache/
+.eslintcache
+.history/
+.tmp/
+.temp/
+tmp/
+
+# ------------------------------------------------------------
+# Bundle / perf analysis
+# ------------------------------------------------------------
+*.tgz
+.analyzer/
+next-analyzer/
