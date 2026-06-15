@@ -320,13 +320,21 @@ export function MetricsSection() {
         </div>
 
         {/* Bottom ticker */}
-        <div className={`mt-16 pt-8 border-t border-foreground/10 flex flex-wrap items-center gap-x-12 gap-y-4 text-sm font-mono text-muted-foreground transition-all duration-1000 delay-500 ${isVisible ? "opacity-100" : "opacity-0"
+        <div className={`mt-16 pt-8 border-t border-foreground/10 transition-all duration-1000 delay-500 ${isVisible ? "opacity-100" : "opacity-0"
           }`}>
-          <span>Solidity</span>
-          <span>TypeScript</span>
-          <span>Python</span>
-          <span>Rust · Anchor</span>
-          <span className="text-foreground">+ Ethers.js · Hardhat · Next.js</span>
+          <div className="flex flex-wrap items-center gap-3 text-sm font-mono">
+            {["Solidity", "TypeScript", "Python", "Rust", "Anchor"].map((skill) => (
+              <span
+                key={skill}
+                className="rounded-full border border-foreground/10 bg-foreground/[0.03] px-4 py-2 text-muted-foreground"
+              >
+                {skill}
+              </span>
+            ))}
+            <span className="rounded-full border border-[#eca8d6]/30 bg-[#eca8d6]/10 px-4 py-2 text-foreground">
+              Ethers.js · Hardhat · Next.js
+            </span>
+          </div>
         </div>
       </div>
     </section>
