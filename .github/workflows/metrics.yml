@@ -71,15 +71,13 @@ jobs:
           plugin_achievements_display: detailed
           plugin_achievements_threshold: X
 
-  games:
+  snake:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Snake
+      - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -87,13 +85,7 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
 
-      - name: Space Invaders
-        uses: nickcoutsos/github-readme-space-invaders@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          output: dist/space-invaders.gif
-
-      - name: Push game assets
+      - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

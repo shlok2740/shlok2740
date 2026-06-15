@@ -239,10 +239,10 @@ mindmap
 
 ---
 
-## `> SPACE INVADERS 👽`
+## `> 3D CONTRIBUTION BOARD 🧊`
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shlok2740/shlok2740/output/space-invaders.gif" alt="Space Invaders contribution graph" />
+  <img src="https://raw.githubusercontent.com/shlok2740/shlok2740/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution board" />
 </p>
 
 ---
