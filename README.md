@@ -227,18 +227,6 @@ mindmap
 
 ---
 
-## `> SNAKE EATING MY COMMITS 🐍`
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shlok2740/shlok2740/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shlok2740/shlok2740/output/snake.svg" />
-    <img src="https://raw.githubusercontent.com/shlok2740/shlok2740/output/snake-dark.svg" alt="Snake contribution graph" />
-  </picture>
-</p>
-
----
-
 ## `> 3D CONTRIBUTION BOARD 🧊`
 
 <p align="center">
