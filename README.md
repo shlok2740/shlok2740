@@ -197,12 +197,7 @@ mindmap
 ## `> CHARACTER STATS 📊`
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=shlok2740&theme=chartreuse-dark&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github&cache_seconds=86400&title_color=00FF41&icon_color=00FF41&text_color=ffffff&bg_color=0d1117" alt="GitHub stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shlok2740&theme=chartreuse-dark&hide_border=true&layout=compact&langs_count=8&cache_seconds=86400&title_color=00FF41&text_color=ffffff&bg_color=0d1117" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img width="98%" src="https://streak-stats.demolab.com?user=shlok2740&theme=chartreuse-dark&hide_border=true&card_width=980&background=0d1117&fire=FF6B35&ring=00FF41&currStreakLabel=00FF41" alt="GitHub streak" />
+  [![LeetCode Stats](https://www.readmecodegen.com/api/leetcode-stats?username=shlokkumar2303&theme=tokyonight)](https://www.readmecodegen.com/leetcode-stats-generator/leetcode-stats-card-generator-for-github)
 </p>
 
 ---
@@ -212,6 +207,8 @@ mindmap
 <p align="center">
   <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=shlok2740&theme=react-dark&bg_color=0d1117&color=00FF41&line=00FF41&point=ffffff&area=true&hide_border=true" alt="GitHub activity graph" />
 </p>
+
+
 
 ---
 
