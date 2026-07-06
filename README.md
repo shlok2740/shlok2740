@@ -197,8 +197,9 @@ mindmap
 ## `> CHARACTER STATS 📊`
 
 <p align="center">
-  ![LeetCode Stats](https://www.readmecodegen.com/api/leetcode-stats?username=shlokkumar2303&theme=tokyonight)
+  <img src="https://leetcard.jacoblin.cool/shlokkumar2303?theme=transparent&font=Fira%20Code&ext=activity" alt="LeetCode Stats" />
 </p>
+
 
 ---
 
