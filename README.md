@@ -197,7 +197,7 @@ mindmap
 ## `> CHARACTER STATS 📊`
 
 <p align="center">
-  [![LeetCode Stats](https://www.readmecodegen.com/api/leetcode-stats?username=shlokkumar2303&theme=tokyonight)](https://www.readmecodegen.com/leetcode-stats-generator/leetcode-stats-card-generator-for-github)
+  ![LeetCode Stats](https://www.readmecodegen.com/api/leetcode-stats?username=shlokkumar2303&theme=tokyonight)
 </p>
 
 ---
